@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Tobin corp</title>
+    <link rel="icon" href="wababababobo.png" type="image/icon">
+    <meta name="og:title" content="Buisness - Gaige's web">
+    <meta name='og:description' content="The buisness page of Gaige's web">
+    <meta name="theme-color" content='#5865F2'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Buisness - Gaige's web</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-image: linear-gradient(white, lightblue);
+            background-attachment: fixed;
+        }
+
+        .important {
+            padding-bottom: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 0;
+            background: black;
+            color: white;
+
+        }
+
+        @font-face {
+            font-family: maro;
+            src: url(./Assets/SuperMario256.ttf);
+        }
+
+        .shelf {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            align-items: center;
+            border: 3px solid black;
+            z-index: 2;
+            border-radius: 10px;
+            background: #eee;
+            margin: 0px;
+        }
+
+        .item {
+
+            border: 0;
+            border-radius: 20px;
+            background: whitesmoke;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0 -2px 3px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin: 10px;
+            transition: 0.2s;
+            width: fit-content;
+        }
+
+        .item:hover {
+            transform: translate(0px, -10px);
+            box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.35), outset 0px 5px 10px rgba(0, 0, 0, 0.35);
+        }
+
+        .itemprev {
+            box-shadow: inset 0 0 1px 0 dimgray;
+            height: 200px;
+            width: 200px;
+        }
+
+        .order {
+            background-image: linear-gradient(white 50%, lightgrey 50%, white 100%);
+            border-radius: 5px;
+            border: 1px solid gray;
+            transition: 0.1s;
+
+        }
+
+        .order:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+        }
+
+        .order:active {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 black;
+        }
+
+        #backbutton {
+            padding-top: 3px;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+            background: black;
+            color: white;
+
+            border-radius: 0px 0px 5px 5px;
+            border: 1px solid white;
+            transition: 0.1s;
+        }
+
+        #backbutton:hover {
+            padding-top: 10px;
+
+        }
+
+        #m {
+            font-family: maro, sans-serif;
+            transform: translate(0, -15px);
+            font-size: x-large;
+        }
+
+        h4 {
+            margin: 1px;
+        }
+
+        p {
+            margin: 1px;
+        }
+
+        .b {
+            border-radius: 5px 5px 0px 0px;
+            margin: 0px;
+            z-index: 1;
+            padding-top: 1px;
+            padding-right: 5px;
+            padding-left: 1px;
+            transform: translate(10px, 21px);
+            background: #eee;
+            padding-bottom: 0px;
+            width: fit-content;
+
+            box-shadow: 0 -2px 0px 2px black;
+            top: 100px;
+            
+        }
+
+        .oos {
+            color: red;
+            font-style: bold italic underline oblique;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="top:0; left:50px; position:fixed; z-index:111;">
+        
+    </div>
+    <div class="important">
+        <h3>Hover for price.</h3>
+        <p>Hover for price.</p>
+    </div>
+    <div>
+        <div class="b">
+            <h1 id="m">Menu</h1>
+        </div>
+        <div class="shelf">
+            <div class="item" title="0.50¢">
+                <h4>Gum</h4>
+                <img src="Assets/hic1rgeo1syii2ebj87c.avif" alt="Image failed" class="itemprev" height="400"
+                    width="400">
+                <h4>Order</h4>
+                <button disabled="disabled" class="order">
+                    ERR: 522: FORM NOT READY
+                </button>
+                <p>In stock: 34</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
